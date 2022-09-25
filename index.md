@@ -1,9 +1,8 @@
+# __Week 0 Lab__
 
 ## Jae Hyun Cha
 
 [Link](https://github.com/Jae-Hyun-Cha/cse15l-lab-reports)
-
-[Lab Report 1](https://Jae-Hyun-Cha.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
 * List
 * List

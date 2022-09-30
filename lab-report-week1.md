@@ -15,7 +15,7 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
     Setting up the course specific account
     - If you are a Windows user, you should download OpenSSH (Follow the link!) [https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
     - Only download the OpenSSH __client__. Do not download the server.
-    - For the first step, type the command in your terminal.
+    - For the first step, type the command in your terminal and type in your password.
     ``` 
      $ ssh cs15lfa22zz@ieng6.ucsd.edu 
     ```
@@ -24,14 +24,16 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
      $ ssh <Your-UCSDgmail-ID>@ieng6.ucsd.edu 
     ```
 
+    -  If the terminal shows you, "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't...", type yes.
 
 
-    
 3. __Trying Some Commands__
 
     Now, let's try some commands!
     
-    First, try to work with these commands. `cd`, `ls`, `pwd`, `mkdir`, and `cp` 
+    First, try to work with these commands. `cd`, `ls`, `pwd`, `mkdir`, and `cp`
+
+    Now, try to work with these commands too! 
 
     - `cd ~`
     - `cd`
@@ -41,7 +43,10 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
     - `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
     - `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
 
-    To log out from the remote server in your terminal, you can try:
+    For logging out from the remote server in your terminal, you can try: command "exit" or press Ctrl + D
+
+    ![Image](commandwork.png)
+
 4. __Moving Files with scp__
 
     - 

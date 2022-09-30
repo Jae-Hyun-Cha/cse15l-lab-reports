@@ -51,7 +51,7 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
 
     - Connect to the remote server with ssh again. The command scp <file name> <username>@ieng6.ucsd.edu:<directory on server> moves a file in the working directory on the client to any directory on the ieng6 server.
 
-    - Make a new file in VS Code named WhereAmI.java
+    - Make a new file in VS Code named WhereAmI.java. Then, put the following content below.
 
     class WhereAmI {
         public static void main(String[] args) {
@@ -61,6 +61,10 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
             System.out.println(System.getProperty("user.dir"));
         }
     } 
+
+    - Now, let's compile and run the file on both client and server.
+
+    - ![Image](clientandserver.png) 
 
 5. __Setting an SSH Key__
 
@@ -82,3 +86,9 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
     ![Image](Window.png)
 
 6. __Optimizing Remote Running__
+
+    - By using semicolon(;), commands can be connected! It simply means that after one command run then the next command run!
+    
+    - Also, commands abled to run on the server when they are connected with ssh. For example, ssh <username>@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI".
+
+    - Personally, I was able to save 

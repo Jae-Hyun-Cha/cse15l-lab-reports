@@ -53,10 +53,10 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
 
 4. __Moving Files with scp__
 
-    - Connect to the remote server with ssh again. The command scp <file name> <username>@ieng6.ucsd.edu:<directory on server> moves a file in the working directory on the client to any directory on the ieng6 server.
+    - Now, let's connect to the remote server with using ssh and a new command called scp.
 
-    - Make a new file in VS Code named WhereAmI.java. Then, put the following content below.
-
+    - First, make a new file in VS Code named WhereAmI.java. Then, put the following content below.
+    ```
     class WhereAmI {
         public static void main(String[] args) {
             System.out.println(System.getProperty("os.name"));
@@ -65,16 +65,25 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
             System.out.println(System.getProperty("user.dir"));
         }
     } 
+    ```
 
-    - Now, let's compile and run the file on both client and server.
+    - Now, let's compile and run the file on the client.
+
+    - Next, run this command!
+    
+    ```
+    scp WhereAmI.java <user-name>@ieng6.ucsd.edu:~/
+    ```
+
+    - Log into ieng6 using again ssh again! Afterthat use command _s. You will be now able to see the file in the home directory!
 
     - ![Image](clientandserver.png) 
 
 5. __Setting an SSH Key__
 
-    - In the terminal, type in "ssh-keygen" and enter to create a public and private SSH keys. Type 'y', if it ask "Overwrite (y/n)?". Also, leave the input blank for passphrase.
+    - In the terminal, type in "ssh-keygen" and press enter to create a public and private SSH keys. Type 'y', if it ask "Overwrite (y/n)?". Also, leave the input blank for the passphrase.
 
-    - Now, at the back of the command scp add <default path>/.ssh/id_rsa.pub <username>@ieng6.ucsd.edu:~/.ssh/authorized_keys
+    - Now, at the back of the command _scp_ add the command below! (Only one _scp_ command)
 
     ```
     scp <default path>/.ssh/id_rsa.pub <username>@ieng6.ucsd.edu:~/.ssh authorized_keys
@@ -85,14 +94,24 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
 - Here is the Screenshot that how it will look!
     ![Image](SSH.png)
 
-    - If you're a Windows user, follow the instructions for ssh-add under "User key generation". [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+    - Also, if you're a Windows user, follow the instructions for ssh-add under "User key generation". [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
     ![Image](Window.png)
 
+    - Once you finished this process, you don't need to type your password anymore! 
+
 6. __Optimizing Remote Running__
 
-    - By using semicolon(;), commands can be connected! It simply means that after one command run then the next command run!
-    
-    - Also, commands abled to run on the server when they are connected with ssh. For example, ssh <username>@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI".
+    - By using semicolon(;), commands can be connected in one line!
+    ```
+    cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+    ```
 
+    - Commands are abled to run on the server when they are connected with ssh.
+    ```
+    ssh (username)@ieng6.ucsd.edu "javac (Filename.java); java (Filename)".
+    ```
+
+    - By using the 'up-arrow', you could recall the last command that was ran.
+    
     - Personally, I was able to save 

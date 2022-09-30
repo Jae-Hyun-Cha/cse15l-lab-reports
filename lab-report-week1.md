@@ -4,15 +4,25 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
 
  1. __Installing VScode__
 
-    - We need to install Visual Studio Code. You can download it from this website link. Be sure to download the right version for you operating system (Windows, OS, etc). [https://code.visualstudio.com/](https://code.visualstudio.com/)
+     We need to install Visual Studio Code. You can download it from this website link. Be sure to download the right version for you operating system (Windows, OS, etc). [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-    ![Image](vscodePicture.png) 
+    - If you finish the download and open Visual Studio Code, it will look somewhat like the picture below. (Colors might be different!)
+    
+        ![Image](vscodePicture.png) 
 
 2. __Remotely Connecting__
 
-    - Setting up the course specific account
-    - If you are a Windows user, you should download OpenSSH (Follow the link!) 
-
+    Setting up the course specific account
+    - If you are a Windows user, you should download OpenSSH (Follow the link!) [https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
+    - Only download the OpenSSH __client__. Do not download the server.
+    - For the first step, type the command in your terminal.
+    ``` 
+     $ ssh cs15lfa22zz@ieng6.ucsd.edu 
+    ```
+    - If you can't connect this account, you can use your own account!
+    ``` 
+     $ ssh <Your-UCSDgmail-ID>@ieng6.ucsd.edu 
+    ```
 3. __Trying Some Commands__
 
     Now, let's try some commands!

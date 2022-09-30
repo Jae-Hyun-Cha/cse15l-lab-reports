@@ -51,4 +51,13 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
 
     - 
 5. __Setting an SSH Key__
+    - If you're a Windows user, follow the instructions for ssh-add under "User key generation". [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
+    ![Image](Window.png)
+
+    - In the terminal, type in "ssh-keygen" to create a public and private SSH keys. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password.
+
+    Here is the Screenshot that how it will look!
+    
+    ![Image](SSH.png)
 6. __Optimizing Remote Running__

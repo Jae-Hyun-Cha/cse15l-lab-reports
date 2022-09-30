@@ -4,7 +4,9 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
 
  1. __Installing VScode__
 
-    - We need to install Visual Studio Code. You can download it from this website link. Be sure to download the right version for you operating system (Windows, OS, etc). [https://code.visualstudio.com/](https://code.visualstudio.com/) 
+    - We need to install Visual Studio Code. You can download it from this website link. Be sure to download the right version for you operating system (Windows, OS, etc). [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+    ![Image](vscodePicture.png) 
 
 2. __Remotely Connecting__
 

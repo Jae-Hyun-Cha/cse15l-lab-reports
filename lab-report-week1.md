@@ -19,10 +19,14 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
     ``` 
      $ ssh cs15lfa22zz@ieng6.ucsd.edu 
     ```
-    - If you can't connect this account, you can use your own account!
+    - If you can't connect this account, you can use your own account! (I did it by this way!)
     ``` 
      $ ssh <Your-UCSDgmail-ID>@ieng6.ucsd.edu 
     ```
+
+    ![Image](Login.png)
+
+    - I previously logged in before, so the text might be little different. 
 
     -  If the terminal shows you, "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't...", type yes.
 

@@ -112,6 +112,8 @@ Hello, everyone! This will be a tutorial for you to learn how to log into a cour
     ssh (username)@ieng6.ucsd.edu "javac (Filename.java); java (Filename)".
     ```
 
+    ![Image](keystroke.png)
+
     - By using the 'up-arrow', you could recall the last command that was ran.
-    
-    - Personally, I was able to save 
+
+    - Personally, I was able to save couple of keystrokes and time connecting the commands in one line! Using up-arrow key will be a method to save your keystrokes.

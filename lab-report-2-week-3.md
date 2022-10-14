@@ -1,6 +1,6 @@
 # Lab Report 2 (Week 3)
 
-## _Part1 : Search Engine_
+# _Part1 : Search Engine_
 
 This code shows the implementation of a simple Search Engine.
 
@@ -74,4 +74,34 @@ class SearchEngine {
 - The method will search what is after "_=_" which is "app". Empty string is created to add the result. After that using the _for loop_. it will check each String value in the ArrayList "SearchList". If it recognizes that the String value has "app", it will append the String value into a single string and print it out.
 - Since "apple" and "pineapple" are the String value that contains "app", "apple pineapple" will be printed.
 
-## _Part2 : Debug_
+# _Part2 : Debug_
+
+## 1. reversed
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+``` 
+
+- The failure-inducing input (the code of the test)
+```
+  @Test
+  public void testReversed() {
+    int[] input1 = {1,2,3};
+    assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
+  }
+```
+- The symptom (the failing test output)
+
+- The bug (the code fix needed)
+- Then, explain the connection between the symptom and the bug. Why does the - bug cause that particular symptom for that particular input?
+
+2. append
+- The failure-inducing input (the code of the test)
+- The symptom (the failing test output)
+- The bug (the code fix needed)
+- Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?

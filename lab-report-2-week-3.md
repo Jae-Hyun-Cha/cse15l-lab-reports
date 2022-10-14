@@ -52,4 +52,17 @@ class SearchEngine {
 }
 ```
 
+This code shows the implementation of a simple Search Engine.
+
+![Image](anewstringtoadd.png) ![Image](apple.png) ![Image](pineapple.png) 
+
+In the Screenshot, the method "handleRequest" is called. By using .getPath( ), .equals, .contains, the path is being checked and accessed.
+First, the method will recognize the path “/” and execute the if statement which is “”.
+Next, the method will recognize the path "/add" and execute the else if statement.
+Like the screenshot above "anewstringtoadd", “apple”, and “pineapple” gets added to the ArrayList called "SearchList" which I made inside the class. 
+
+
+![Image](applepineapple.png)
+
+
 ## _Part2 : Debug_

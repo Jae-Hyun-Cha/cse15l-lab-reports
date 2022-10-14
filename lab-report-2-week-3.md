@@ -96,6 +96,7 @@ class SearchEngine {
   }
 ```
 - The symptom (the failing test output)
+![Image](Symptom.png)
 
 - The bug (the code fix needed)
 - Then, explain the connection between the symptom and the bug. Why does the - bug cause that particular symptom for that particular input?

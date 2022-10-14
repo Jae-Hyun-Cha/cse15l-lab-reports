@@ -2,6 +2,8 @@
 
 ## _Part1 : Search Engine_
 
+This code shows the implementation of a simple Search Engine.
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -52,17 +54,24 @@ class SearchEngine {
 }
 ```
 
-This code shows the implementation of a simple Search Engine.
 
-![Image](anewstringtoadd.png) ![Image](apple.png) ![Image](pineapple.png) 
+   - By using .getPath( ), .equals, .contains, the path is being checked and accessed.
+   - First, the method will check the path _“/”_ and if it is recognized it will execute the _if_ statement.
+   - Next, the method will check the path _"/add"_ and if it is recognized it will execute the _else if_ statement.
+   - Lastly, inside the _else_ statement, if the method recognizes _"/search"_ then it will execute the _if_ statement inside the _else_ statement.
 
-In the Screenshot, the method "handleRequest" is called. By using .getPath( ), .equals, .contains, the path is being checked and accessed.
-First, the method will recognize the path “/” and execute the if statement which is “”.
-Next, the method will recognize the path "/add" and execute the else if statement.
-Like the screenshot above "anewstringtoadd", “apple”, and “pineapple” gets added to the ArrayList called "SearchList" which I made inside the class. 
+![Image](anewstringtoadd.png)![Image](apple.png)![Image](pineapple.png)
+
+- In these three Screenshot, the method "handleRequest" is called and it takes _"URL"_ as a parameter.
+- The method has recognized the path _"/add"_ and it will execute the _else if_ statement.  
+- Like the screenshots above, the _String_ value "anewstringtoadd", “apple”, and “pineapple” gets added to the _String_ ArrayList called "SearchList" which I made inside the class. 
 
 
 ![Image](applepineapple.png)
 
+- Since the "/search" the path, the method will recognize it and execute the _if_ statement inside the _else_ statement. 
+- Right now, inside the ArrayList "SearchList", three String values are added. "anewstringtoadd" at index 0, "apple" at index 1, and "apple" at index 2.
+- The method will search what is after "_=_" which is "app". Empty string is created to add the result. After that using the _for loop_. it will check each String value in the ArrayList "SearchList". If it recognizes that the String value has "app", it will append the String value into a single string and print it out.
+- Since "apple" and "pineapple" are the String value that contains "app", "apple pineapple" will be printed.
 
 ## _Part2 : Debug_

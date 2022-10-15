@@ -173,4 +173,4 @@ static List<String> merge(List<String> list1, List<String> list2) {
 
 The bug was that the while loop incremented the index1 not index2. The while loop should have incremented the index 2. 
 
-As index1 is being added in the while loop, list2.size will be always bigger than index2. This will cause an infinite loop which result "
+As index1 is being added in the while loop, list2.size will be always bigger than index2. This will cause an infinite loop which results showing "java.lang.OutOfMemoryError".

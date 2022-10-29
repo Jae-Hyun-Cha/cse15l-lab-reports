@@ -27,8 +27,9 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
 
 ## __Option 2 "grep -n"__
 
-"grep -n" command displays the line number and the matched results.
+- "grep -n" command displays the line number and the matched results.
 
+   - _(First Version)_ By using command "grep -n"
 ```
 [cs15lfa22df@ieng6-202]:911report:271$ grep -n Tuesday chapter-1.txt
 6:    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to 

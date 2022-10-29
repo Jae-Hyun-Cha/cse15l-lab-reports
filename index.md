@@ -10,6 +10,8 @@
 
     3. [Week 3 - Lab Report](https://Jae-Hyun-Cha.github.io/cse15l-lab-reports/lab-report-2-week-3.html)
 
+    3. [Week 5 - Lab Report](https://Jae-Hyun-Cha.github.io/cse15l-lab-reports/lab-report-3-week-5.html)
+
 Horizontal rule:
 
 ---

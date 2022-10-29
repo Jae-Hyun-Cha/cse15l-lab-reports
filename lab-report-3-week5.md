@@ -4,7 +4,7 @@
 
 "grep" command is a command-line tool which is used to search for a string of characters in a file.
 
-Basic form of grep command syntex : grep <_string of characters_> <_filename_>
+>Basic form of grep command syntex : grep <_string of characters_> <_filename_>
 
 ## __Option 1 "grep -h"__
 

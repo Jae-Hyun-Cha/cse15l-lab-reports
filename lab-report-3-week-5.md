@@ -22,9 +22,31 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
 "grep -h" command displays the matched lines, however it doesn't display the filename.
 
 ```
-
+[cs15lfa22df@ieng6-201]:911report:331$ grep -h  path chapter-5.txt
+                followed a rather tortuous path to his eventual membership in al Qaeda.
+                persuade Jarrah to depart from "the path he was taking" proved unavailing.101Yet
+                Qaeda sympathizers in specific foreign branch offices of large, international
+                sympathizers who turned a blind eye to al Qaeda's fundraising activities.
 ```
 
+```
+[cs15lfa22df@ieng6-201]:~:335$ grep -h location docsearch/technical/911report/chapter-6.txt
+                Ladin's reported location.
+                Jordan into Israel, and two Christian holy sites, at a time when all these locations
+                fiscal year; the Bin Ladin unit had spent 140 percent of its allocation. Tenet told
+                Predator if it proved able to lock in Bin Ladin's location. In the memo's margin,
+                location: we will need, at least, data on pattern of movements to provide some
+                Bin Ladin. He chose the target and location of the attack, selected the suicide
+```
+```
+[cs15lfa22df@ieng6-201]:~:336$ grep -h California */*/*/chapter-6.txt
+            One of the 16, Raed Hijazi, had been born in California to Palestinian parents; after
+                spending his childhood in the Middle East, he had returned to northern California,
+                that Hijazi had lived in California and driven a cab in Boston and that Deek was a
+            One of the 16, Raed Hijazi, had been born in California to Palestinian parents; after
+                spending his childhood in the Middle East, he had returned to northern California,
+                that Hijazi had lived in California and driven a cab in Boston and that Deek was a
+```
 ## __Option 2 "grep -n"__
 
 - "grep -n" command displays the line number and the matched results.
@@ -68,10 +90,19 @@ the
 ```
 
 
-## __Option 3 "grep -v"__
+## __Option 3 "grep -l"__
 
 "grep -l" command displays the list of filenames. 
 
 ```
-
+[cs15lfa22df@ieng6-201]:911report:357$ grep -l response chapter-9.txt
+chapter-9.txt
+```
+```
+[cs15lfa22df@ieng6-201]:~:342$ grep -l intended docsearch/technical/911report/chapter-8.txt
+docsearch/technical/911report/chapter-8.txt
+```
+```
+[cs15lfa22df@ieng6-201]:~:341$ grep -l  point */*/*/chapter-7.txt
+docsearch/technical/911report/chapter-7.txt
 ```

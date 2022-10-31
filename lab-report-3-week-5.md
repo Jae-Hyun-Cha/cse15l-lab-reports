@@ -87,12 +87,6 @@ docsearch/technical/911report/chapter-3.txt:15:            At 18 minutes after n
 docsearch/technical/911report/chapter-3.txt:1123:                wounded, 18 were killed, and the world's television screens showed images of an 
 docsearch/technical/911report/chapter-3.txt:1776:            On May 18, CIA's managers reviewed a draft Memorandum of Notification (MON), a legaldocsearch/technical/911report/chapter-3.txt:2562:            The CIA reported on December 18 that Bin Ladin might be traveling to Kandahar and   
 docsearch/technical/911report/chapter-3.txt:3081:                lately for direct US military action?"185There are no notes recording whether the
-skill-demo1/technical/911report/chapter-3.txt:15:            At 18 minutes after noon on February 26,1993, a huge bomb went off beneath the two  
-skill-demo1/technical/911report/chapter-3.txt:1123:                wounded, 18 were killed, and the world's television screens showed images of an
-skill-demo1/technical/911report/chapter-3.txt:1776:            On May 18, CIA's managers reviewed a draft Memorandum of Notification (MON), a legal
-skill-demo1/technical/911report/chapter-3.txt:2562:            The CIA reported on December 18 that Bin Ladin might be traveling to Kandahar and 
-skill-demo1/technical/911report/chapter-3.txt:3081:                lately for direct US military action?"185There are no notes recording whether 
-the
 ```
 
 

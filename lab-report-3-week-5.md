@@ -55,7 +55,7 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
 
 - "grep -n" command displays the line number and the matched results.
 
-- _(First Version)_ By using the command "cd", we move into the "911report" file. Type command "grep -n", the text in "chapter-1.txt" file, and chapter-1.txt. As the result below, it displays the matched results and the line number which is 6, 62, and 170.
+- _(First Version)_ By using the command "cd", we move into the "911report" file. Type command "grep -n", the text in "chapter-1.txt" file, and "chapter-1.txt". As the result below, it displays the matched results and the line number which is 6, 62, and 170.
 
 ```
 [cs15lfa22df@ieng6-202]:911report:271$ grep -n Tuesday chapter-1.txt
@@ -80,7 +80,7 @@ attendants. Eighty-one passengers boarded the flight with them (including the fi
 891:            On February 23, 1998, Bin Ladin issued his public fatwa. The language had been in
 910:                newspaper in London that had first published Bin Ladin's February fatwa, and it
 ```
-- _(Third Version)_ Same with the second version but in the command line the file name is alternated to " * (Asterisk) " which will be " * / * / */chapter-2.txt". Using " * (Asterisk) " is helpful because it saves time. 
+- _(Third Version)_ Same with the second version but in the command line the file name is alternated to " * (Asterisk) " which will be " * / * / */chapter-3.txt". Using " * (Asterisk) " is helpful because it saves time. 
 ```
 [cs15lfa22df@ieng6-202]:~:320$ grep -n 18 */*/*/chapter-3.txt
 docsearch/technical/911report/chapter-3.txt:15:            At 18 minutes after noon on February 26,1993, a huge bomb went off beneath the two    
@@ -100,12 +100,12 @@ the
 
 "grep -l" command displays the list of filenames. 
 
-- _(First Version)_ By using the command "cd", we move into the "911report" file. Then use command "grep -l" and typing the text inside "chapter-9.txt". As the result below, it displays the filename which is "chapter-9.txt".
+- _(First Version)_ By using the command "cd", we move into the "911report" file. The typingorder is to type command "grep -l", type the text inside "chapter-9.txt", and "chapter-9.txt". As the result below, it displays the filename which is "chapter-9.txt".
 ```
 [cs15lfa22df@ieng6-201]:911report:357$ grep -l response chapter-9.txt
 chapter-9.txt
 ```
-- _(Second Version)_ Instead of using the command "cd", we move into the "chapter-8.txt" file by using the command line "docsearch/technical/911report/chapter-8.txt". Then use command "grep -l" and typing the text inside "chapter-8.txt". As the result below, it displays the list of filenames which is "docsearch/technical/911report/chapter-8.txt".
+- _(Second Version)_ Instead of using the command "cd", we move into the "chapter-8.txt" file by using the command line "docsearch/technical/911report/chapter-8.txt". The order is to type command "grep -l", type the text inside "chapter-8.txt", and "chapter-8.txt". As the result below, it displays the list of filenames which is "docsearch/technical/911report/chapter-8.txt".
 ```
 [cs15lfa22df@ieng6-201]:~:342$ grep -l intended docsearch/technical/911report/chapter-8.txt
 docsearch/technical/911report/chapter-8.txt

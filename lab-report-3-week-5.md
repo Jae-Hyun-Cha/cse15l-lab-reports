@@ -19,7 +19,9 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
 
 ## __Option 1 "grep -h"__
 
-"grep -h" command displays the matched lines, however it doesn't display the filename.
+- "grep -h" command displays the matched lines, however it doesn't display the filename.
+
+- _(First Version)_ By using the command "cd", we move into the "911report" file. Type command "grep -h", the text in "chapter-5.txt" file, and "chapter-5.txt". As the result below, it displays the matched line of text "path".
 
 ```
 [cs15lfa22df@ieng6-201]:911report:331$ grep -h  path chapter-5.txt
@@ -28,6 +30,7 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
                 Qaeda sympathizers in specific foreign branch offices of large, international
                 sympathizers who turned a blind eye to al Qaeda's fundraising activities.
 ```
+- _(Second Version)_ Insteading of using the command "cd", we accessed to the chapter-6.txt by typing "docsearch/technical/911report/chapter-6.txt". The order is using command "grep -h", typing the text in "chapter-2.txt" file, and typing "docsearch/technical/911report/chapter-6.txt". Same as the first version, it will display the matched line of text "location".
 
 ```
 [cs15lfa22df@ieng6-201]:~:335$ grep -h location docsearch/technical/911report/chapter-6.txt
@@ -38,6 +41,7 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
                 location: we will need, at least, data on pattern of movements to provide some
                 Bin Ladin. He chose the target and location of the attack, selected the suicide
 ```
+- _(Third Version)_ Instead of using the command "cd", we move into the "chapter-7.txt" file by using the command line "* / * / * /chapter-7.txt". Using " * (Asterisk) " is helpful because it saves time. First, type command "grep -h", type the text inside "chapter-6.txt", and lastly "* / * / * /chapter-6.txt". The result will be same as the first and second version.
 ```
 [cs15lfa22df@ieng6-201]:~:336$ grep -h California */*/*/chapter-6.txt
             One of the 16, Raed Hijazi, had been born in California to Palestinian parents; after
@@ -51,7 +55,8 @@ The "grep" command search through chapter-1.txt file for the lines where "Tuesda
 
 - "grep -n" command displays the line number and the matched results.
 
-   - _(First Version)_ By using command "grep -n"
+- _(First Version)_ By using the command "cd", we move into the "911report" file. Type command "grep -n", the text in "chapter-1.txt" file, and chapter-1.txt. As the result below, it displays the matched results and the line number which is 6, 62, and 170.
+
 ```
 [cs15lfa22df@ieng6-202]:911report:271$ grep -n Tuesday chapter-1.txt
 6:    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to 
@@ -63,6 +68,7 @@ attendants. Eighty-one passengers boarded the flight with them (including the fi
 170:    On the morning of 9/11, there were only 37 passengers on United 93-33 in addition to the 4 hijackers. This was below the norm for Tuesda 
  mornings during the summer of 2001. But there is no evidence that the hijackers manipulated passenger levels or purchased additional seats to facilitate their operation.
 ```
+- _(Second Version)_ Insteading of using the command "cd", we accessed to the chapter-2.txt by typing "docsearch/technical/911report/chapter-2.txt". The order is using command "grep -n", typing the text in "chapter-2.txt" file, and typing "docsearch/technical/911report/chapter-2.txt".
 
 ```
 [cs15lfa22df@ieng6-202]:~:278$ grep -n February docsearch/technical/911report/chapter-2.txt
@@ -74,7 +80,7 @@ attendants. Eighty-one passengers boarded the flight with them (including the fi
 891:            On February 23, 1998, Bin Ladin issued his public fatwa. The language had been in
 910:                newspaper in London that had first published Bin Ladin's February fatwa, and it
 ```
-
+- _(Third Version)_ Same with the second version but in the command line the file name is alternated to " * (Asterisk) " which will be " * / * / */chapter-2.txt". Using " * (Asterisk) " is helpful because it saves time. 
 ```
 [cs15lfa22df@ieng6-202]:~:320$ grep -n 18 */*/*/chapter-3.txt
 docsearch/technical/911report/chapter-3.txt:15:            At 18 minutes after noon on February 26,1993, a huge bomb went off beneath the two    
@@ -94,14 +100,17 @@ the
 
 "grep -l" command displays the list of filenames. 
 
+- _(First Version)_ By using the command "cd", we move into the "911report" file. Then use command "grep -l" and typing the text inside "chapter-9.txt". As the result below, it displays the filename which is "chapter-9.txt".
 ```
 [cs15lfa22df@ieng6-201]:911report:357$ grep -l response chapter-9.txt
 chapter-9.txt
 ```
+- _(Second Version)_ Instead of using the command "cd", we move into the "chapter-8.txt" file by using the command line "docsearch/technical/911report/chapter-8.txt". Then use command "grep -l" and typing the text inside "chapter-8.txt". As the result below, it displays the list of filenames which is "docsearch/technical/911report/chapter-8.txt".
 ```
 [cs15lfa22df@ieng6-201]:~:342$ grep -l intended docsearch/technical/911report/chapter-8.txt
 docsearch/technical/911report/chapter-8.txt
 ```
+- _(Third Version)_ Instead of using the command "cd", we move into the "chapter-7.txt" file by using the command line "* / * / * /chapter-7.txt". Using " * (Asterisk) " is helpful because it saves time. First, type command "grep -l", type the text inside "chapter-7.txt", and lastly "* / * / * /chapter-7.txt". As the result below, it displays the list of filenames which is "docsearch/technical/911report/chapter-7.txt".
 ```
 [cs15lfa22df@ieng6-201]:~:341$ grep -l  point */*/*/chapter-7.txt
 docsearch/technical/911report/chapter-7.txt

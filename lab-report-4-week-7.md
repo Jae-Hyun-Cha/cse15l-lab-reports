@@ -33,7 +33,7 @@ Second Style : 36 seconds
 
 Q1) Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
-- I would prefer working with the "Second Style", if was you running remotely. It is more efficient to use the "Second Style" because we can save key strokes. For example, using `scp` command and changing the server between local and remote.
+- I would prefer working with the "Second Style", if I am running remotely. It is more efficient to use the "Second Style" because I can save key strokes comparing with the "First Style". For example, using `scp` command and changing the server between local and remote.
 
 Q2) What about the project or task might factor into your decision one way or another?
 

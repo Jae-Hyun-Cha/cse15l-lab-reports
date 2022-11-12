@@ -28,10 +28,14 @@ Step 4 : Performing the task (Total 22 Kyes Pressed)
 
 ## __Part2__ : Questions
 
+First Style : 40 seconds
+Second Style : 36 seconds
+
 Q1) Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
-- 
+- I would prefer working with the "Second Style", if was you running remotely. It is more efficient to use the "Second Style" because we can save key strokes. For example, using `scp` command and changing the server between local and remote.
 
 Q2) What about the project or task might factor into your decision one way or another?
 
-- 
+- If the project could be worked in the local server, I will prefer the "First Style". I feel confidence writing and editing codes based on my keyboard settings.
+- However, if the program should be worked on the remote machine, then I will pick the "Second Style" because it will be more convenient working on the remote machine.

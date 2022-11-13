@@ -30,7 +30,7 @@ Step 4 : Performing the task (Total 22 Keys Pressed)
 
 ![Image](step5.png)
 
-6) Type `n` `.` `n` `.` (Four Keys Pressed): Replacing start to base
+6) Type `n` (Moving the cursor to the next occurance) `.` (repeating the previous editting earlier) `n` `.` `n` `.` (Six Keys Pressed): Replacing start to base
 
 ![Image](step6.png)
 
@@ -40,9 +40,17 @@ Step 4 : Performing the task (Total 22 Keys Pressed)
 
 ## __Part2__ : Questions
 
-First Style : 40 seconds
+__First Style__ 
 
-Second Style : 36 seconds
+Time : 40 seconds
+
+Difficulties : Had a long command using `scp`
+
+__Second Style__ 
+
+Time : 36 seconds
+
+Difficulites : For this task, I didn't have difficulites. However, the fact that I am not used to Vim will make difficulites in the future when I am editing. 
 
 Q1) Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 

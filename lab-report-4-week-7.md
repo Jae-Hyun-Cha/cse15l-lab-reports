@@ -14,7 +14,7 @@ Step 4 : Performing the task (Total 22 Keys Pressed)
 
 ![Image](step1.png)
 
-2) Press <Enter> Key (One Key Pressed) : By pressing <Enter>, the first character of the word will be highlighted
+2) Press < Enter > Key (One Key Pressed) : By pressing < Enter >, the first character of the word will be highlighted
 
 ![Image](step2.png)
 
@@ -26,7 +26,7 @@ Step 4 : Performing the task (Total 22 Keys Pressed)
 
 ![Image](step4.png)
 
-5) Press <ESC> Key (One Key Pressed): Escaping from the insert mode
+5) Press < ESC > Key (One Key Pressed): Escaping from the insert mode
 
 ![Image](step5.png)
 
@@ -34,7 +34,7 @@ Step 4 : Performing the task (Total 22 Keys Pressed)
 
 ![Image](step6.png)
 
-7) Type `:wq` and Press the <Enter> Key (Four Keys Pressed) : Save the change and finish the vim mode.
+7) Type `:wq` and Press the < Enter > Key (Four Keys Pressed) : Save the change and finish the vim mode.
 
 ![Image](step7.png)
 

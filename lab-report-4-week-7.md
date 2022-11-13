@@ -8,7 +8,7 @@ Step 2 : `cd week6-skill-demo1`
 
 Step 3 : `vim DocSearchServer.java`
 
-Step 4 : Performing the task (Total 22 Keys Pressed)
+Step 4 : Performing the task (Total 24 Keys Pressed)
 
 1) Type `/start` (Six Keys Pressed) : By typing `/start`, it will highlight the word "start".
 

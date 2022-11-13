@@ -10,31 +10,31 @@ Step 3 : `vim DocSearchServer.java`
 
 Step 4 : Performing the task (Total 22 Keys Pressed)
 
-1. Type `/start` (Six Keys Pressed) : By typing `/start`, it will highlight the word "start".
+1) Type `/start` (Six Keys Pressed) : By typing `/start`, it will highlight the word "start".
 
 ![Image](step1.png)
 
-2. Press `Enter` Key (One Key Pressed) : By pressing Enter, the first character of the word will be highlighted.
+2) Press `Enter` Key (One Key Pressed) : By pressing Enter, the first character of the word will be highlighted.
 
 ![Image](step2.png)
 
-3. Type `c` and `e` (Two Keys Pressed): The word "start" will be deleted
+3) Type `c` and `e` (Two Keys Pressed): The word "start" will be deleted
 
 ![Image](step3.png)
 
-4. Type `base` (Four Keys Pressed) : Replacing the word
+4) Type `base` (Four Keys Pressed) : Replacing the word
 
 ![Image](step4.png)
 
-5. Press `ESC` Key (One Key Pressed): Escaping from the insert mode
+5) Press `ESC` Key (One Key Pressed): Escaping from the insert mode
 
 ![Image](step5.png)
 
-6. Type `n` `.` `n` `.` (Four Keys Pressed): Replacing start to base
+6) Type `n` `.` `n` `.` (Four Keys Pressed): Replacing start to base
 
 ![Image](step6.png)
 
-7. Type `:wq` and Press the `Enter` Key (Four Keys Pressed) : Saves the change and finishs the vim mode.
+7) Type `:wq` and Press the `Enter` Key (Four Keys Pressed) : Saves the change and finishs the vim mode.
 
 ![Image](step7.png)
 

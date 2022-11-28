@@ -99,9 +99,8 @@ Compile Error!
 ------------------------------
 Score : [1 / 3 points]
 ```
-Rest of the lines does not have a standard/error output or a return code.
 
-`_if statements_`
+`if statements`
 
 `Line 8` : The "if statement" is true because the ListExamples.java file was found in the repository. Also it was added to the directory for submission.
 

@@ -66,9 +66,7 @@ fi
 ![Image](filecorrect.png)
 
 
-Tracing Script (https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
-
-Standard Output/Error and Return Codes for Each Command Line
+## _Tracing Script (https://github.com/ucsd-cse15l-f22/list-methods-compile-error)_
 
 `Line 1` Return Code : 0
 
@@ -103,7 +101,7 @@ Score : [1 / 3 points]
 ```
 Rest of the lines does not have a standard/error output or a return code.
 
-_if statements_
+`_if statements_`
 
 `Line 8` : The "if statement" is true because the ListExamples.java file was found in the repository. Also it was added to the directory for submission.
 

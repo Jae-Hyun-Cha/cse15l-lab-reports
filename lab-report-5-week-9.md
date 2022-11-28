@@ -102,11 +102,11 @@ Score : [1 / 3 points]
 
 `if statements`
 
-`Line 8` : The "if statement" is true because the ListExamples.java file was found in the repository. Also it was added to the directory for submission.
+`Line 8` : The first "if statement" is true because the ListExamples.java file was found in the repository. Also it was added to the directory for submission.
 
-`Line 26` : The "if statement" is true because the ListExamples.java file had a compile error. Also, the return code is not 0.
+`Line 26` : The second "if statement" is true because the ListExamples.java file had a compile error. Also, the return code is not 0.
 
 `Line 40` : The third "if statement" could not be ran because the bash script will exit as the file has a compile error.
 
-Line 33 ~ 52 didn't run because of the second "if statement".
+Line 33 ~ 52 didn't run because of the second "if statement". Because of the second "if statement", the bash script will exit.
 

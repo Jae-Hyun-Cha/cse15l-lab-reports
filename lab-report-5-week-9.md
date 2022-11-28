@@ -1,6 +1,6 @@
 # __Lab Report5 (Week 9)__
 
-grade.sh (Code Block)
+## _`grade.sh`_
 
 ```
 rm -rf student-submission
@@ -57,7 +57,7 @@ else
 fi
 ```
 
-Three Screenshot
+## _Three Screenshot_
 
 ![Image](filename.png)
 
@@ -66,5 +66,50 @@ Three Screenshot
 ![Image](filecorrect.png)
 
 
-Pick One Example and Explain
+Tracing Script (https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
+
+Standard Output/Error and Return Codes for Each Command Line
+
+`Line 1` Return Code : 0
+
+`Line 2` Return Code : 0
+
+`Line 3` Return Code : 0
+
+`Line 5` Return Code : 0
+
+`Line 20` Return Code : 0
+
+`Line 21` Return Code : 0
+
+`Line 22` Return Code : 0
+
+`Line 23` Return Code : 0
+
+`Line 24` Return Code : 1 (Standard Error)
+
+```
+ListExamples.java:15: error: ';' expected              
+          result.add(0, s)
+                               ^                    
+1 error
+```
+`Line 28,29,30` Standard Output
+
+```
+Compile Error!
+------------------------------
+Score : [1 / 3 points]
+```
+Rest of the lines does not have a standard/error output or a return code.
+
+_if statements_
+
+`Line 8` : The "if statement" is true because the ListExamples.java file was found in the repository. Also it was added to the directory for submission.
+
+`Line 26` : The "if statement" is true because the ListExamples.java file had a compile error. Also, the return code is not 0.
+
+`Line 40` : The third "if statement" could not be ran because the bash script will exit as the file has a compile error.
+
+Line 33 ~ 52 didn't run because of the second "if statement".
 
